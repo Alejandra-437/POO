@@ -4,6 +4,9 @@ docs_dir: docs
 
 theme:
   name: material
-
+  features:
+    - navigation.sections # agrupa por secciones en la barra izquierda
+    - navigation.expand # deja todo expandido
+    - toc.integrate # mete el índice (ToC) de la página en la barra izquierda
 nav:
   - Programando Orientado a Objetos: index.md
